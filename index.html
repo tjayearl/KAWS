@@ -7,9 +7,15 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Chapter Progress Bar -->
+  <div id="progress-bar"></div>
+
+  <!-- Floating Timeline Navigation -->
+  <nav id="timeline-nav"></nav>
+
   <header>
     <h1>💎 KAWS Exhibition Experience</h1>
-    <p>A Virtual Journey Through Art, Emotion, and Evolution</p>
+    <p id="header-quote">A Virtual Journey Through Art, Emotion, and Evolution</p>
   </header>
 
   <main id="chapters-container">
@@ -20,6 +26,19 @@
     <p>© 2025 KAWS Virtual Experience | Designed by Tjay Earl</p>
   </footer>
 
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox">
+    <span class="lightbox-close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img">
+  </div>
+
+  <!-- GSAP & ScrollTrigger for animations -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <!-- Rellax for parallax effect -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+  <!-- ColorThief for dynamic color matching -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.2/color-thief.umd.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

@@ -6,7 +6,8 @@
       "description": "KAWS began his career on the streets, turning public spaces into living canvases. His graffiti tag became an iconic symbol of rebellion and creativity.",
       "quote": "Street walls were my first galleries.",
       "image": "https://staging2.phaidon.com/resource/022-3-kaws-nj-i.jpg",
-      "bg": "#1e1e2f"
+      "bg": "#1e1e2f",
+      "year": "90s"
     },
     {
       "id": 2,
@@ -14,7 +15,8 @@
       "description": "The “Companion” character became a pop-culture icon — a reflection of vulnerability and humanity hidden behind cartoonish expressions.",
       "quote": "Companion represents empathy, sadness, and the comfort of shared emotion.",
       "image": "https://i.pinimg.com/1200x/29/55/dc/2955dcb804ce93fecaa059e5bf8defe5.jpg",
-      "bg": "#e0c3fc"
+      "bg": "#e0c3fc",
+      "year": "'99"
     },
     {
       "id": 3,
@@ -22,7 +24,8 @@
       "description": "In collaboration with Dior, KAWS merged high fashion and street art, blending playfulness with sophistication through color and texture.",
       "quote": "Art doesn’t belong to one world — it belongs to everyone.",
       "image": "https://i.pinimg.com/736x/ba/a0/4d/baa04df1412b579348280f129f1f3e07.jpg",
-      "bg": "#fde68a"
+      "bg": "#fde68a",
+      "year": "'19"
     },
     {
       "id": 4,
@@ -30,7 +33,8 @@
       "description": "KAWS continues to inspire a new generation — reminding us that art can live beyond walls, on toys, fashion, and digital screens.",
       "quote": "KAWS continues to inspire a new generation — reminding us that art can live beyond walls, on toys, fashion, and digital screens.",
       "image": "https://i.pinimg.com/736x/2f/ad/bc/2fadbce511845eeb7851bc818856f8ce.jpg",
-      "bg": "#111111"
+      "bg": "#111111",
+      "year": "Now"
     }
   ]
 }
