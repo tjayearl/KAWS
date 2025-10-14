@@ -3,38 +3,47 @@
     {
       "id": 1,
       "title": "Early Graffiti Days",
-      "description": "KAWS began his career on the streets, turning public spaces into living canvases. His graffiti tag became an iconic symbol of rebellion and creativity.",
+      "description": "KAWS began his artistic journey in Jersey City, transforming street corners into expressive canvases. His signature skull and crossbones tag quickly became a whispered legend — a statement of rebellion and creative freedom during the underground graffiti boom.",
       "quote": "Street walls were my first galleries.",
       "image": "https://staging2.phaidon.com/resource/022-3-kaws-nj-i.jpg",
       "bg": "#1e1e2f",
-      "year": "90s"
+      "year": "1990s"
     },
     {
       "id": 2,
-      "title": "The Rise of Companion",
-      "description": "The “Companion” character became a pop-culture icon — a reflection of vulnerability and humanity hidden behind cartoonish expressions.",
-      "quote": "Companion represents empathy, sadness, and the comfort of shared emotion.",
-      "image": "https://i.pinimg.com/1200x/29/55/dc/2955dcb804ce93fecaa059e5bf8defe5.jpg",
-      "bg": "#e0c3fc",
-      "year": "'99"
+      "title": "Crossing Worlds: From Streets to Studios",
+      "description": "As his street art evolved, KAWS began transforming familiar cartoon characters into surreal sculptures. He bridged the world between commercial imagery and fine art — exploring how nostalgia and consumerism coexist in the modern mind.",
+      "quote": "I’ve always wanted to make something that felt both familiar and strange.",
+      "image": "https://i.pinimg.com/1200x/c4/09/b0/c409b0fe82c116002b6c5aad32815805.jpg",
+      "bg": "#4338ca",
+      "year": "Late 90s"
     },
     {
       "id": 3,
-      "title": "KAWS x Dior",
-      "description": "In collaboration with Dior, KAWS merged high fashion and street art, blending playfulness with sophistication through color and texture.",
-      "quote": "Art doesn’t belong to one world — it belongs to everyone.",
-      "image": "https://i.pinimg.com/736x/ba/a0/4d/baa04df1412b579348280f129f1f3e07.jpg",
-      "bg": "#fde68a",
-      "year": "'19"
+      "title": "The Rise of Companion",
+      "description": "Then came the Companion — a symbol of empathy, loneliness, and human fragility. With crossed-out eyes and a childlike frame, this character transcended toy design to become an emotional mirror for millions. Museums, collectors, and fans embraced the figure worldwide.",
+      "quote": "Companion represents empathy, sadness, and the comfort of shared emotion.",
+      "image": "https://i.pinimg.com/1200x/29/55/dc/2955dcb804ce93fecaa059e5bf8defe5.jpg",
+      "bg": "#e0c3fc",
+      "year": "1999–2005"
     },
     {
       "id": 4,
-      "title": "The Legacy Continues",
-      "description": "KAWS continues to inspire a new generation — reminding us that art can live beyond walls, on toys, fashion, and digital screens.",
-      "quote": "KAWS continues to inspire a new generation — reminding us that art can live beyond walls, on toys, fashion, and digital screens.",
-      "image": "https://i.pinimg.com/736x/2f/ad/bc/2fadbce511845eeb7851bc818856f8ce.jpg",
-      "bg": "#111111",
-      "year": "Now"
+      "title": "Global Collaborations: Dior, Uniqlo & Beyond",
+      "description": "KAWS blurred the boundaries of art, fashion, and commerce — collaborating with global icons like Dior, Uniqlo, and Nike. His ability to merge high fashion with street language gave birth to a new visual culture — democratic, stylish, and deeply emotional.",
+      "quote": "Art doesn’t belong to one world — it belongs to everyone.",
+      "image": "https://i.pinimg.com/736x/ba/a0/4d/baa04df1412b579348280f129f1f3e07.jpg",
+      "bg": "#fde68a",
+      "year": "2010s"
+    },
+    {
+      "id": 5,
+      "title": "KAWS: The Digital Renaissance",
+      "description": "Today, KAWS explores digital art, NFTs, and large-scale augmented reality exhibitions. His works float above skylines, appear in virtual museums, and live in the hands of fans worldwide. The spirit of his graffiti roots remains — rebellion reimagined through technology.",
+      "quote": "My art will always evolve, but the message never changes — connection.",
+      "image": "https://i.pinimg.com/1200x/f1/5a/c0/f15ac0548cf013584c112603878abb2c.jpg",
+      "bg": "#0f172a",
+      "year": "2020s"
     }
   ]
 }
