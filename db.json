@@ -1,67 +1,36 @@
 {
-  "artworks": [
+  "chapters": [
     {
       "id": 1,
-      "title": "Companion (Passing Through)",
-      "year": 2010,
-      "category": "Sculptures",
-      "imageUrl": "https://i.ibb.co/yQdCj1F/kaws-sculpture-1.jpg"
+      "title": "Early Graffiti Days",
+      "description": "KAWS began his career on the streets, turning public spaces into living canvases. His graffiti tag became an iconic symbol of rebellion and creativity.",
+      "quote": "Street walls were my first galleries.",
+      "image": "https://staging2.phaidon.com/resource/022-3-kaws-nj-i.jpg",
+      "bg": "#1e1e2f"
     },
     {
       "id": 2,
-      "title": "The Kimpsons",
-      "year": 2001,
-      "category": "Prints",
-      "imageUrl": "https://i.ibb.co/Jqg0sSg/kaws-print-1.jpg"
+      "title": "The Rise of Companion",
+      "description": "The “Companion” character became a pop-culture icon — a reflection of vulnerability and humanity hidden behind cartoonish expressions.",
+      "quote": "Companion represents empathy, sadness, and the comfort of shared emotion.",
+      "image": "https://i.pinimg.com/1200x/29/55/dc/2955dcb804ce93fecaa059e5bf8defe5.jpg",
+      "bg": "#e0c3fc"
     },
     {
       "id": 3,
-      "title": "Dior BFF Plush",
-      "year": 2019,
-      "category": "Collabs",
-      "imageUrl": "https://i.ibb.co/mHkPzYv/kaws-collab-1.jpg"
+      "title": "KAWS x Dior",
+      "description": "In collaboration with Dior, KAWS merged high fashion and street art, blending playfulness with sophistication through color and texture.",
+      "quote": "Art doesn’t belong to one world — it belongs to everyone.",
+      "image": "https://i.pinimg.com/736x/ba/a0/4d/baa04df1412b579348280f129f1f3e07.jpg",
+      "bg": "#fde68a"
     },
     {
       "id": 4,
-      "title": "BFF Companion (Blue)",
-      "year": 2017,
-      "category": "Sculptures",
-      "imageUrl": "https://i.ibb.co/YyZJZxM/kaws-sculpture-2.jpg"
-    },
-    {
-      "id": 5,
-      "title": "Uniqlo x KAWS",
-      "year": 2019,
-      "category": "Collabs",
-      "imageUrl": "https://i.ibb.co/yYVBDYV/kaws-collab-2.jpg"
-    },
-    {
-      "id": 6,
-      "title": "Ankle Bracelet",
-      "year": 2017,
-      "category": "Prints",
-      "imageUrl": "https://i.ibb.co/z5w7NfW/kaws-print-2.jpg"
-    },
-    {
-      "id": 7,
-      "title": "Take (Pink)",
-      "year": 2020,
-      "category": "Sculptures",
-      "imageUrl": "https://i.ibb.co/L6vjC7B/kaws-sculpture-3.jpg"
-    },
-    {
-      "id": 8,
-      "title": "Air Jordan 4 Retro",
-      "year": 2017,
-      "category": "Collabs",
-      "imageUrl": "https://i.ibb.co/GvTjN2z/kaws-collab-3.jpg"
-    },
-    {
-      "id": 9,
-      "title": "Lost Time",
-      "year": 2018,
-      "category": "Prints",
-      "imageUrl": "https://i.ibb.co/qYgJgJb/kaws-print-3.jpg"
+      "title": "The Legacy Continues",
+      "description": "KAWS continues to inspire a new generation — reminding us that art can live beyond walls, on toys, fashion, and digital screens.",
+      "quote": "KAWS continues to inspire a new generation — reminding us that art can live beyond walls, on toys, fashion, and digital screens.",
+      "image": "https://i.pinimg.com/736x/2f/ad/bc/2fadbce511845eeb7851bc818856f8ce.jpg",
+      "bg": "#111111"
     }
   ]
 }
