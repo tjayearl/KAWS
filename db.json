@@ -1,0 +1,67 @@
+{
+  "artworks": [
+    {
+      "id": 1,
+      "title": "Companion (Passing Through)",
+      "year": 2010,
+      "category": "Sculptures",
+      "imageUrl": "https://i.ibb.co/yQdCj1F/kaws-sculpture-1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "The Kimpsons",
+      "year": 2001,
+      "category": "Prints",
+      "imageUrl": "https://i.ibb.co/Jqg0sSg/kaws-print-1.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Dior BFF Plush",
+      "year": 2019,
+      "category": "Collabs",
+      "imageUrl": "https://i.ibb.co/mHkPzYv/kaws-collab-1.jpg"
+    },
+    {
+      "id": 4,
+      "title": "BFF Companion (Blue)",
+      "year": 2017,
+      "category": "Sculptures",
+      "imageUrl": "https://i.ibb.co/YyZJZxM/kaws-sculpture-2.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Uniqlo x KAWS",
+      "year": 2019,
+      "category": "Collabs",
+      "imageUrl": "https://i.ibb.co/yYVBDYV/kaws-collab-2.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Ankle Bracelet",
+      "year": 2017,
+      "category": "Prints",
+      "imageUrl": "https://i.ibb.co/z5w7NfW/kaws-print-2.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Take (Pink)",
+      "year": 2020,
+      "category": "Sculptures",
+      "imageUrl": "https://i.ibb.co/L6vjC7B/kaws-sculpture-3.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Air Jordan 4 Retro",
+      "year": 2017,
+      "category": "Collabs",
+      "imageUrl": "https://i.ibb.co/GvTjN2z/kaws-collab-3.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Lost Time",
+      "year": 2018,
+      "category": "Prints",
+      "imageUrl": "https://i.ibb.co/qYgJgJb/kaws-print-3.jpg"
+    }
+  ]
+}
