@@ -59,45 +59,45 @@
   "artworks": [
     {
       "id": 1,
-      "title": "Jersey City Graffiti",
-      "year": "1990s",
-      "imageUrl": "https://staging2.phaidon.com/resource/022-3-kaws-nj-i.jpg",
+      "title": "Kaws x Supreme",
+      "year": "since 2001",
+      "imageUrl": "https://i.pinimg.com/1200x/0b/b7/6f/0bb76f81ba4ec897743cf018117dab48.jpg",
       "medium": "Spray Paint",
-      "description": "Early work from the streets of Jersey City, where KAWS developed his signature style.",
+      "description": "Kaws collaborated with Supreme to bring art to the world.",
       "category": "Paintings"
     },
     {
       "id": 2,
-      "title": "Sketchbook",
-      "year": "1990s",
-      "imageUrl": "https://staging2.phaidon.com/resource/015-sketchbook-ii.jpg",
-      "medium": "Ink on Paper",
-      "description": "A glimpse into the artist's process, showing the evolution of his iconic characters.",
+      "title": "Kaws x Kanye",
+      "year": "2008",
+      "imageUrl": "https://i.pinimg.com/736x/9c/c4/ed/9cc4ed9d54b2020073194fdc3d86ca11.jpg",
+      "medium": "Kanye x Kaws",
+      "description": "The collaboration between two great artists.",
       "category": "Paintings"
     },
     {
       "id": 3,
-      "title": "Untitled (Kimpsons)",
-      "year": "Late 90s",
-      "imageUrl": "https://i.pinimg.com/1200x/c4/09/b0/c409b0fe82c116002b6c5aad32815805.jpg",
+      "title": "Kimpsons",
+      "year": "2005",
+      "imageUrl": "https://i.pinimg.com/1200x/e3/6d/9d/e36d9d3d6d4922590de9bd76cab81167.jpg",
       "medium": "Acrylic on Canvas",
       "description": "A subversion of pop culture icons, a recurring theme in KAWS's work.",
       "category": "Paintings"
     },
     {
       "id": 4,
-      "title": "Companion",
-      "year": "1999",
-      "imageUrl": "https://i.pinimg.com/1200x/29/55/dc/2955dcb804ce93fecaa059e5bf8defe5.jpg",
+      "title": "Kaws x Travis Scott",
+      "year": "2020",
+      "imageUrl": "https://i.pinimg.com/1200x/13/55/a1/1355a1d8d413c1f73be39ae780642642.jpg",
       "medium": "Vinyl Figure",
-      "description": "The first appearance of the iconic Companion, a symbol of empathy and loneliness.",
+      "description": "The legends colide.",
       "category": "Toys"
     },
     {
       "id": 5,
       "title": "Dior Collaboration",
-      "year": "2010s",
-      "imageUrl": "https://i.pinimg.com/736x/ba/a0/4d/baa04df1412b579348280f129f1f3e07.jpg",
+      "year": "2018",
+      "imageUrl": "https://i.pinimg.com/736x/ba/a0/4d/baa04df1412b579348280f129f1f3e07.jpg.",
       "medium": "Installation",
       "description": "Merging high fashion and street art, this collaboration redefined brand partnerships.",
       "category": "Collaborations"
@@ -105,8 +105,8 @@
     {
       "id": 6,
       "title": "Digital Artwork",
-      "year": "2020s",
-      "imageUrl": "https://i.pinimg.com/1200x/f1/5a/c0/f15ac0548cf013584c112603878abb2c.jpg",
+      "year": "2020",
+      "imageUrl": "https://i.pinimg.com/736x/98/51/c1/9851c1399ca1a7186eec9d4f33060f9d.jpg.",
       "medium": "Augmented Reality",
       "description": "KAWS explores new frontiers by bringing his art into the digital and virtual realms.",
       "category": "Paintings"
@@ -114,8 +114,8 @@
     {
       "id": 7,
       "title": "Spray Art",
-      "year": "1990s",
-      "imageUrl": "https://soldart.com/wp-content/uploads/2014/06/Kaws-graffiti-old-painting-spray_3-web.jpg",
+      "year": "1980",
+      "imageUrl": "https://i.pinimg.com/736x/12/c7/89/12c7896ee01f61dd79c1b05493a2b750.jpg",
       "medium": "Spray Paint",
       "description": "An example of KAWS's early ad-busting, altering public advertisements with his art.",
       "category": "Paintings"
@@ -124,7 +124,7 @@
       "id": 8,
       "title": "Holiday: Japan",
       "year": "2019",
-      "imageUrl": "https://hypebeast.com/image/2019/07/kaws-holiday-japan-mount-fuji-fumotoppara-camping-ground-release-info-1.jpg",
+      "imageUrl": "https://i.pinimg.com/1200x/ca/50/c1/ca50c15589f6915aacc0baa43be49565.jpg",
       "medium": "Inflatable Sculpture",
       "description": "The KAWS:HOLIDAY project brought monumental sculptures to locations around the world.",
       "category": "Sculptures"
