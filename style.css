@@ -295,8 +295,8 @@ blockquote {
   box-shadow: 0 0 25px rgba(255, 255, 255, 0.7);
 }
 
-/* KAWS button design (based on your shared CSS) - This is now unused on index.html but kept for other pages */
-button#enterButton {
+/* KAWS masked button design - This is now unused on index.html but kept for other pages */
+.masked-kaws-btn {
   border: none;
   position: relative;
   width: 220px;
@@ -313,7 +313,7 @@ button#enterButton {
   transition: all 0.3s ease;
 }
 
-button:after {
+button.masked-kaws-btn:after {
   content: '';
   position: absolute;
   left: 0;
@@ -323,11 +323,11 @@ button:after {
   transition: all 2s ease;
 }
 
-button:hover:after {
+button.masked-kaws-btn:hover:after {
   box-shadow: 0px -13px 56px 12px #ffffffa6;
 }
 
-button span {
+button.masked-kaws-btn span {
   position: absolute;
   width: 100%;
   font-size: 18px;
@@ -342,11 +342,11 @@ button span {
   text-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
 }
 
-button:hover span {
+button.masked-kaws-btn:hover span {
   color: black;
 }
 
-button:before {
+button.masked-kaws-btn:before {
   content: '';
   position: absolute;
   width: 0;
@@ -358,7 +358,7 @@ button:before {
   transition: all 1s ease;
 }
 
-button:hover:before {
+button.masked-kaws-btn:hover:before {
   width: 100%;
 }
 
