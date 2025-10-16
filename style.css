@@ -4,6 +4,7 @@
   --text-light: #f0f0f0;
   --text-dark: #111;
   --accent-pink: #FF2D55;
+  --glow-color: #ff4d4d; /* Default glow color */
 }
 
 * {
@@ -74,6 +75,13 @@ header, footer {
   transform: scale(1.2);
   color: var(--accent-pink);
 }
+.header {
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px; /* Adjust padding */
+}
 
 header {
   top: 0;
@@ -117,16 +125,12 @@ footer {
   z-index: 0;
   opacity: 0.35;
   transition: opacity 1s ease, transform 1.2s ease;
+  filter: blur(2px);
 }
 
 .chapter.active img {
-  opacity: 0.6;
-  transition: opacity 1.2s ease;
-}
-
-.chapter:not(.active) img {
-  opacity: 0.1;
-  transition: opacity 1.2s ease;
+  opacity: 0.6; /* Make image more visible on active chapter */
+  filter: blur(0);
 }
 
 .chapter .content {
@@ -172,6 +176,60 @@ blockquote {
   opacity: 1;
   transform: scale(1);
   transition: all 0.8s ease;
+}
+
+/* Background XX Eyes Styles */
+.background-xx-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -1; /* Behind everything */
+  overflow: hidden;
+}
+
+.background-xx {
+  font-size: clamp(30rem, 80vw, 50rem); /* Giant, responsive size */
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.02); /* Very faint base color */
+  text-shadow: 0 0 80px var(--glow-color);
+  line-height: 1;
+  user-select: none;
+  transition: text-shadow 1.5s ease;
+}
+
+/* Transition Overlay Styles */
+#transition-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.3);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+}
+
+#transition-overlay.visible {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.transition-xx {
+  font-size: 15vw;
+  color: #ff4d4d;
+  text-shadow: 0 0 10px #ff4d4d, 0 0 30px #ff4d4d;
+  opacity: 0;
+  animation: xx-fade 0.6s ease-in-out forwards;
 }
 
 /* Text color adjustments for light backgrounds */
@@ -371,4 +429,65 @@ button.masked-kaws-btn:hover:before {
 
 .xx-eyes {
   animation: ambientGlow 4s infinite ease-in-out;
+}
+
+/* Fun Fact Pop-up */
+#fun-fact-popup {
+  position: fixed;
+  background-color: var(--accent-pink);
+  color: white;
+  padding: 8px 15px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  z-index: 10000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease-out;
+  transform: translate(-50%, -120%); /* Position above cursor */
+}
+
+#fun-fact-popup.visible {
+  opacity: 1;
+}
+
+/* Quote Modal Styles */
+.modal-overlay {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 10001;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-overlay.visible {
+  display: flex;
+}
+
+.modal-content {
+  background: #1e1e2f;
+  padding: 40px;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+  max-width: 500px;
+  position: relative;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
